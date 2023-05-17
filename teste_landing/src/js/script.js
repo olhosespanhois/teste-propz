@@ -1,7 +1,7 @@
 jsonGet();
 
 async function jsonGet() {
-    const json1 = await fetch('src/js/teste.json').then(resposta => resposta.json())
+    const json1 = await fetch('https://github.com/olhosespanhois/teste-propz/blob/main/teste_landing/src/js/teste.json').then(resposta => resposta.json())
 
     json1.then(dados=>{
     console.log(dados)
