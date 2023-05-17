@@ -1,0 +1,42 @@
+[
+	{
+		"name_produto": "Recycled Wooden Chicken",
+		"description_ldj": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+		"price_ldj": "807.00",
+		"price_discunt": "7",
+		"ml_product": "4",
+		"img_product": "https://loremflickr.com/640/480/technics"
+	},
+	{
+		"name_produto": "Electronic Wooden Gloves",
+		"description_ldj": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+		"price_ldj": "562.00",
+		"price_discunt": "1",
+		"ml_product": "4",
+		"img_product": "https://loremflickr.com/640/480/technics"
+	},
+	{
+		"name_produto": "Tasty Steel Gloves",
+		"description_ldj": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+		"price_ldj": "25.00",
+		"price_discunt": "2",
+		"ml_product": "5",
+		"img_product": "https://loremflickr.com/640/480/technics"
+	},
+	{
+		"name_produto": "Electronic Fresh Mouse",
+		"description_ldj": "The slim &amp; simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+		"price_ldj": "425.00",
+		"price_discunt": "3",
+		"ml_product": "9",
+		"img_product": "https://loremflickr.com/640/480/technics"
+	},
+	{
+		"name_produto": "Generic Fresh Bacon",
+		"description_ldj": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+		"price_ldj": "97.00",
+		"price_discunt": "9",
+		"ml_product": "8",
+		"img_product": "https://loremflickr.com/640/480/technics"
+	}
+]
