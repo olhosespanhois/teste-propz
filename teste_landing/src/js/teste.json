@@ -1,41 +1,36 @@
 [
 	{
-		"name_produto": "Recycled Wooden Chicken",
+		"name_produto": "PERFUME DIOR MISS DIOR FEMININO EAU DE PARFUM",
 		"description_ldj": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-		"price_ldj": "807.00",
-		"price_discunt": "7",
-		"ml_product": "4",
-		"img_product": "https://loremflickr.com/640/480/technics"
+		"price_ldj": "807.01",
+		"ml_product": "30",
+		"img_product": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dw9ebda3a6/images/hi-res-BR/1.%203348901571432_1000px.jpg?sw=400&sh=400&sm=fits"
 	},
 	{
 		"name_produto": "Electronic Wooden Gloves",
 		"description_ldj": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-		"price_ldj": "562.00",
-		"price_discunt": "1",
+		"price_ldj": "562.01",
 		"ml_product": "4",
 		"img_product": "https://loremflickr.com/640/480/technics"
 	},
 	{
 		"name_produto": "Tasty Steel Gloves",
 		"description_ldj": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-		"price_ldj": "25.00",
-		"price_discunt": "2",
+		"price_ldj": "255.01",
 		"ml_product": "5",
 		"img_product": "https://loremflickr.com/640/480/technics"
 	},
 	{
 		"name_produto": "Electronic Fresh Mouse",
 		"description_ldj": "The slim &amp; simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-		"price_ldj": "425.00",
-		"price_discunt": "3",
+		"price_ldj": "425.01",
 		"ml_product": "9",
 		"img_product": "https://loremflickr.com/640/480/technics"
 	},
 	{
 		"name_produto": "Generic Fresh Bacon",
 		"description_ldj": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-		"price_ldj": "97.00",
-		"price_discunt": "9",
+		"price_ldj": "970.01",
 		"ml_product": "8",
 		"img_product": "https://loremflickr.com/640/480/technics"
 	}

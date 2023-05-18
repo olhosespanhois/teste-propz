@@ -43,6 +43,7 @@ small{
     font-size: 3rem;
     background: #121FCF;
     background: linear-gradient(to bottom right, #ecb363 0%, #ce662e 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
