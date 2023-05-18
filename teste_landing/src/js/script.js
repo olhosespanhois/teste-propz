@@ -2,6 +2,7 @@ jsonGet();
 
 function jsonGet() {
 	this.classcarousel = document.getElementById('carouselInner');
+	this.prod=``;
 	let json = fetch('https://raw.githubusercontent.com/olhosespanhois/teste-propz/main/teste_landing/src/js/teste.json').then(resposta => resposta.json());
 	json.then(dados => {
 		let product = dados;
@@ -10,7 +11,7 @@ function jsonGet() {
 			const valuefifteen = (product[i].price_ldj / 15) + 4.80;
 			this.prod += `
 			<div class='carousel-item ${i == 0? 'active' : ''}'>
-				<div class='row'>
+				<div class='row px-4 px-lg-5'>
 					<div class='col-12 col-md-6'>
 						<img src="${product[i].img_product}" class="img-fluid" alt="" srcset="${product[i].img_product}">
 					</div>
@@ -19,7 +20,9 @@ function jsonGet() {
 							<div class='col-12 border-product'>
 								<div class='row py-3'>
 									<div class='col-8'>${product[i].name_produto}</div>
-									<div class='col-4 text-end align-text-bottom'>${product[i].ml_product} ml</div>
+									<div class='col-4 text-end d-flex justify-content-end'>
+										<span class="align-self-end">${product[i].ml_product} ml</span>
+									</div>
 								</div>
 							</div>
 							<div class='col-12 border-product'>
@@ -45,6 +48,7 @@ function jsonGet() {
 				</div>
 			</div>`;
 		}
+
 		this.classcarousel.innerHTML = this.prod;
 	});
 }
