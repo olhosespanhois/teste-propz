@@ -9,6 +9,7 @@ body{
 }
 a, a:visited, a:link{
     color: #000;
+    text-decoration: none;
 }
 a:hover, a:active, a:focus{
     color: #4b4f4e;
@@ -69,7 +70,9 @@ small{
 #main .border-product{
     border-bottom: 1px solid #000;
 }
-
+#main .max-img{
+    max-width: 500px;
+}
 #main .values{
     font-size: 2rem;
     font-weight: 700;

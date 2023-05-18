@@ -12,9 +12,9 @@ function jsonGet() {
 			this.prod += `
 			<div class='carousel-item ${i == 0? 'active' : ''}'>
 				<div class='row px-4 px-lg-5'>
-					<a href="${product[i].url_product}" target="_blank" >
+					<a href="${product[i].url_product}" target="_blank" class="d-flex p-0">
 						<div class='col-12 col-md-6'>
-							<img src="${product[i].img_product}" class="img-fluid" alt="" srcset="${product[i].img_product}">
+							<img src="${product[i].img_product}" class="img-fluid max-img" alt="" srcset="${product[i].img_product}">
 						</div>
 						<div class='col-12 col-md-6'>
 							<div id="product-propz" class='row'>
