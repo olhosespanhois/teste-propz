@@ -76,6 +76,9 @@ small{
     font-size: 2rem;
     font-weight: 700;
 }
+#main .icons-product{
+    font-size: 1.5rem;
+}
 
 /**Footer*/
 #footer{

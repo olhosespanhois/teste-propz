@@ -2,8 +2,6 @@ jsonGet();
 
 function jsonGet() {
 	this.classcarousel = document.getElementById('carouselInner');
-	var html = null;
-	var arrayprod = [];
 	let json = fetch('https://raw.githubusercontent.com/olhosespanhois/teste-propz/main/teste_landing/src/js/teste.json').then(resposta => resposta.json());
 	json.then(dados => {
 		let product = dados;
@@ -30,7 +28,9 @@ function jsonGet() {
 										<p class='values m-0'>10X <small class='align-text-top'>R$</small>${valueten.toFixed(2)}</p>
 										<small>sem juros</small>
 									</div>
-									<div class='col-5 pb-2 text-end'></div>
+									<div class='col-5 pb-2 text-end icons-product'>
+										<i class="fa-brands fa-cc-visa"></i> <i class="fa-brands fa-cc-mastercard"></i>
+									</div>
 									<div class='col-7 pb-2'>
 										<p class='values m-0'>15X <small class='align-text-top'>R$</small>${valuefifteen.toFixed(2)}</p>
 										<small>com juros</small>
@@ -45,14 +45,6 @@ function jsonGet() {
 				</div>
 			</div>`;
 		}
-		console.log(this.prod);
 		this.classcarousel.innerHTML = this.prod;
-		console.log(html);
-		//classcarousel.appendChild(prod);
-		//console.log(classcarousel);
 	});
-	
-	//classcarousel.appendChild(html);
-	//document.getElementsByClassName('carousel-inner').innerHTML = teste;
-
 }
