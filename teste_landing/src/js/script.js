@@ -12,39 +12,41 @@ function jsonGet() {
 			this.prod += `
 			<div class='carousel-item ${i == 0? 'active' : ''}'>
 				<div class='row px-4 px-lg-5'>
-					<div class='col-12 col-md-6'>
-						<img src="${product[i].img_product}" class="img-fluid" alt="" srcset="${product[i].img_product}">
-					</div>
-					<div class='col-12 col-md-6'>
-						<div id="product-propz" class='row'>
-							<div class='col-12 border-product'>
-								<div class='row py-3'>
-									<div class='col-8'>${product[i].name_produto}</div>
-									<div class='col-4 text-end d-flex justify-content-end'>
-										<span class="align-self-end">${product[i].ml_product} ml</span>
+					<a href="${product[i].url_product}" target="_blank" >
+						<div class='col-12 col-md-6'>
+							<img src="${product[i].img_product}" class="img-fluid" alt="" srcset="${product[i].img_product}">
+						</div>
+						<div class='col-12 col-md-6'>
+							<div id="product-propz" class='row'>
+								<div class='col-12 border-product'>
+									<div class='row py-3'>
+										<div class='col-8'>${product[i].name_produto}</div>
+										<div class='col-4 text-end d-flex justify-content-end'>
+											<span class="align-self-end">${product[i].ml_product} ml</span>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class='col-12 border-product'>
-								<div class='row py-3'>
-									<div class='col-7 pb-2'>
-										<p class='values m-0'>10X <small class='align-text-top'>R$</small>${valueten.toFixed(2)}</p>
-										<small>sem juros</small>
-									</div>
-									<div class='col-5 pb-2 text-end icons-product'>
-										<i class="fa-brands fa-cc-visa"></i> <i class="fa-brands fa-cc-mastercard"></i>
-									</div>
-									<div class='col-7 pb-2'>
-										<p class='values m-0'>15X <small class='align-text-top'>R$</small>${valuefifteen.toFixed(2)}</p>
-										<small>com juros</small>
-									</div>
-									<div class='col-5 pb-2'>
-										<small> ou R$${product[i].price_ldj} à vista</small>
+								<div class='col-12 border-product'>
+									<div class='row py-3'>
+										<div class='col-7 pb-2'>
+											<p class='values m-0'>10X <small class='align-text-top'>R$</small>${valueten.toFixed(2)}</p>
+											<small>sem juros</small>
+										</div>
+										<div class='col-5 pb-2 text-end icons-product'>
+											<i class="fa-brands fa-cc-visa"></i> <i class="fa-brands fa-cc-mastercard"></i>
+										</div>
+										<div class='col-7 pb-2'>
+											<p class='values m-0'>15X <small class='align-text-top'>R$</small>${valuefifteen.toFixed(2)}</p>
+											<small>com juros</small>
+										</div>
+										<div class='col-5 pb-2'>
+											<small> ou R$${product[i].price_ldj} à vista</small>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>`;
 		}
