@@ -1,8 +1,8 @@
-# Teste 
+# Teste de E-mail MKT e Landing page
 
 Teste para a empresa Propz
 
-## Autores
+## Autora
 
 - [@olhosespanhois](https://github.com/olhosespanhois/)
 
